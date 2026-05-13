@@ -1,3 +1,7 @@
+![Da Vinci Ultimatium — Constitutional Master Repository
+
+Ecosystem A — Da Vinci / Da Valenca](assets/covers/da_vinci_ultimatium_cover_v1.svg)
+
 # Da Vinci Ultimatium
 
 ## Constitutional Master Parent — Ecosystem A
