@@ -1,66 +1,63 @@
-<div align="center">
+# Da Vinci Ultimatium
 
-# 🜁 **Da Valanca Series • Book I — Turin Shroud Studies**
+## Constitutional Master Parent — Ecosystem A
 
-### **Light, Geometry and the Harmonic Language of Leonardo da Vinci**
+> *Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens*
 
----
-
-**A Technical and Philosophical Reconstruction of Leonardo da Vinci’s Optical Experiment**  
-*Proposing a Photothermal Genesis for the Shroud of Turin*
-
----
-
-**Author :** R. S. Vallance  
-**Affiliation :** Vallance Industries Research Division  |  Oxford Digital Repository  
-**Edition :** V 1.0 — Master White Paper  |  Date :** October 2025  
-
-[![GitHub Repo](https://img.shields.io/badge/DaValanca-Turin--Shroud--Studies-blue?logo=github)](https://github.com/DaValanca/Turin-Shroud-Studies)
-[![License](https://img.shields.io/badge/License-Vallance%20Industries%20v1.2-green)](./LICENSE_VallanceIndustries.txt)
+**Author:** Richard Steven Vallance (Da Valenca)
+**Affiliation:** Da Valenca — Leonardo Project, United Kingdom
+**Constitutional Classification:** Master Parent Repository
+**Publication Status:** 🟢 Constitutional Infrastructure
 
 ---
 
-### 📜 Citation
-> Vallance, R. S. (2025).  
-> *The Vallance Hypothesis — A Renaissance Optical Experiment in the Genesis of the Turin Shroud.*  
-> *Da Valanca Series • Book I — Turin Shroud Studies.*  
-> Vallance Industries Press / Oxford Digital Repository.  
-> DOI: pending • Repository URL: [https://github.com/DaValanca/Turin-Shroud-Studies](https://github.com/DaValanca/Turin-Shroud-Studies)
+## Purpose
+
+This repository is the constitutional root for ALL Leonardo da Vinci / Da Valenca research.
+It contains the repository map, publication roadmap, DOI registry, bibliography, and cross-project index for the entire Da Vinci ecosystem.
 
 ---
 
-### © Copyright Notice
-© 2025 R. S. Vallance — All Rights Reserved  
-Published under the **Vallance Industries Research License v 1.2**  
-*(Non-commercial  |  Attribution Required  |  No Derivative without consent)*  
+## Ecosystem A — Repository Map
+
+| Repository | Purpose | Status |
+|---|---|---|
+| [da-vinci-ultimatium](https://github.com/richievallance/da-vinci-ultimatium) | Master parent / constitutional root | 🟢 Infrastructure |
+| [da-vinci-mechanica](https://github.com/richievallance/da-vinci-mechanica) | Madrid I engineering white paper | 🟢 Publication Ready |
+| [principia-mechanica](https://github.com/richievallance/principia-mechanica) | Higher-order philosophical mechanics | 🟡 Draft Stage |
+| [corpus-leonardianum](https://github.com/richievallance/corpus-leonardianum) | IIIF manifests, codicology, folio maps | 🟢 Infrastructure |
+| [solarscorch](https://github.com/richievallance/solarscorch) | Solar geometry, CA673 spectral science | 🟡 Draft Stage |
+| [figura-ultima](https://github.com/richievallance/figura-ultima) | Textile / photothermal / body-cloth studies | 🔴 Experimental |
+| [turin-shroud-white-paper](https://github.com/richievallance/turin-shroud-white-paper) | Publication branch — Turin Shroud thesis | 🟡 Under Adversarial Review |
 
 ---
 
-### 📖 Series Information
-**Da Valanca Series Volumes (Planned):**
-1. *Turin Shroud Studies* (2025)  
-2. *The Last Supper Symmetries* (2025)  
-3. *Codices & Atlantean Mechanics* (2026)  
-4. *Universal Cipher Edition* (2027)  
+## Priority Claims Register
+
+| ID | Claim | Source | Type |
+|---|---|---|---|
+| PC-1 | Flintlock prototype c.1493–97 (115 yrs pre-le Bourgeoys) | BNE 5907 | TYPE A |
+| PC-2 | Resonant impulse accumulation / escapement physics | BNE 5911 | TYPE A |
+| PC-3 | Clock-and-orrery platform; lunar gear 1:29.5 | BNE 5902/5906 | TYPE A |
+| PC-4 | Chiaravalle abbey clock dating anchor | BNE 5892 | TYPE A |
+| PC-5 | Seepage alignment as design registration | Madrid I | TYPE B |
+| PC-6 | Over-centre toggle-lock doctrine | BNE 5955 | TYPE A |
 
 ---
 
-### 🪶 Page Markers and Reference Codes
-| Marker | Meaning | Pages |
-|:--|:--|:--:|
-| FM | Front Matter pages | i –q x |
-| C1–C26 | Main Chapters (26 × A–Z sections) | 1 – 400 |
-| APP | Appendices | 401 – 420 |
-| IDX | Indices / Glossary | 421 – 450 |
+## Evidence Classification
+
+| Type | Definition |
+|---|---|
+| TYPE A | Direct evidence |
+| TYPE B | Strong inference |
+| TYPE C | Interpretive synthesis |
+| TYPE D | Speculative hypothesis |
+| TYPE E | Creative/metaphysical synthesis |
 
 ---
 
-**Repository Maintainer :** R. S. Vallance  
-Contact:richievallance@outlook.com 
-TikTok : @leodavinci
-Twitter / X : @richievallance
-(https://x.com/richievallance)
+## Legal Notice
 
----
-
-</div>
+© 2026 Richard Steven Vallance. All Intellectual Property and Copyright Reserved.
+*Da Valenca — Leonardo Project, United Kingdom*
