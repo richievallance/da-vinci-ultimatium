@@ -1,57 +1,99 @@
 # Publication Sequence Master
-## Da Valenca Project — Publication Roadmap
+## Da Valenca — Corpus Leonardianum Universale
 
-**Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project | 2026
-
----
-
-## Publication Priority Order
-
-### Priority 1 — Immediate (Awaiting Content Confirmation)
-
-**Da Vinci Mechanica White Paper** (`da-vinci-mechanica`)
-- Core paper: Chapters I–VIII, ~11,000 words
-- Extension: Chapters VIII–X, ~15,000 additional words
-- Priority Claims: PC-1 through PC-6 formally registered
-- Status: Deposited. DOI pending explicit content confirmation from RSV.
-
-### Priority 2 — Short Term (After Review)
-
-**SolarScorch / CA673** (`solarscorch`)
-- Full paper review required
-- 156.4° anomaly must be addressed or resolved in final version
-- Datasets already deposited
-
-**Principia Omnium Universale** (`principia-mechanica`)
-- Canonical 3.07MB binary upload from Drive pending
-- After upload: review for publication readiness
-
-### Priority 3 — Medium Term
-
-**Corpus Leonardianum Infrastructure** (`corpus-leonardianum`)
-- When Batches 1–10 of codex extraction complete
-- Current status: Batches 1–5 (26% complete)
-
-### Priority 4 — Long Term (After Adversarial Review)
-
-**Figura Ultima** (`figura-ultima`)
-- Full adversarial peer review required
-- Mathematical ratio (7.1 scalar) publishable separately as Priority 3 item
-
-**Turin Shroud White Paper** (`turin-shroud-white-paper`)
-- Must be rebuilt from selected thesis sections
-- Not a relabelling of existing content
+**Richard Steven Vallance (Da Valenca)** | 2026
 
 ---
 
-## Outstanding Content Tasks
+## Governing Principle
 
-- Formal write-up of PC-7, PC-8, PC-9 (identified, not yet written)
-- Batch 6: Madrid Codex I f.25v onward (friction laws, lubrication, rack-and-pinion)
-- Upload of BNE 5916–5953 (38 missing transcript files)
-- Rumour Harm white paper (must be written from scratch — no source exists yet)
-- USC papers (must be created — no source documents found in audit)
+No publication without review. No DOI without confirmed content. No release without explicit decision.
 
 ---
 
+## Publication Sequence
+
+### WAVE 1 — Core Mechanica (Immediate Priority)
+
+**Target: da-vinci-mechanica**
+
+- `DaValenca_Mechanica_WhitePaper_2026.md` — DEPOSITED ✓
+- `docs/Da_Vinci_Mechanica_Extension_Chapters_VIII_IX_X_RSV_2026.md` — DEPOSITED ✓
+- Chapters VIII–X .docx binary — Pending Drive binary upload
+- DOI: Pending content confirmation
+
+This is the primary scholarly contribution. The Priority Claims (PC-1 through PC-6, with PC-7 to PC-9 pending formal write-up) constitute the core priority establishment of this project.
+
+### WAVE 2 — Solar/Optical Analysis
+
+**Target: solarscorch**
+
+- `SolarScorch_SpectralAnalysis_RSV_2026.docx` — DEPOSITED ✓
+- All data files (CSV, KML) — DEPOSITED ✓
+- 156.4° anomaly: unresolved — document explicitly in paper
+- DOI: Pending full paper adversarial review
+
+### WAVE 3 — Universal Architecture
+
+**Target: principia-mechanica**
+
+- `PRINCIPIA_OMNIUM_Da_Valenca_2026.docx` (3.07MB) — Binary pending deposit
+- Canonical note — DEPOSITED ✓
+- DOI: Pending binary deposit + review
+
+### WAVE 4 — Infrastructure
+
+**Target: corpus-leonardianum**
+
+- All infrastructure and transcription files — DEPOSITED ✓
+- No independent DOI; cited by Waves 1 and 3
+
+### WAVE 5 — Experimental (No DOI Until Review)
+
+**Target: figura-ultima**
+
+- Both thesis versions — DEPOSITED ✓
+- Adversarial review: MANDATORY before DOI
+- Do not release until formal review complete
+
+### WAVE 6 — Future Construction
+
+**Target: turin-shroud-white-paper**
+
+- Paper must be built from scratch from strongest Figura Ultima sections
+- Do not release until paper is written and reviewed
+
+---
+
+## Priority Claims Register Summary
+
+| Claim | Subject | Status |
+|---|---|---|
+| PC-1 | Flintlock prototype (BNE 5907) — 115 years before le Bourgeoys | Formally established |
+| PC-2 | Resonant impulse accumulation (BNE 5911) | Formally established |
+| PC-3 | Combined clock-and-orrery + lunar gear cascade 1:29.5 | Formally established |
+| PC-4 | Chiaravalle precision dating anchor (BNE 5892) | Formally established |
+| PC-5 | Seepage alignment as intentional design registration | Formally established |
+| PC-6 | Over-centre toggle-lock doctrine (BNE 5955) | Formally established |
+| PC-7 | Pending formal write-up | Identified |
+| PC-8 | Pending formal write-up | Identified |
+| PC-9 | Pending formal write-up | Identified |
+
+---
+
+## Batch Progress — Madrid Codex I
+
+| Batch | Folios | Status |
+|---|---|---|
+| 1 | f.0r–f.5r | Complete |
+| 2 | f.5v–f.10v | Complete |
+| 3 | f.11r–f.16r | Complete |
+| 4 | f.16v–f.20v | Complete |
+| 5 | f.21r–f.25r | Complete |
+| 6 | f.25v onward (friction, lubrication, rack-and-pinion) | Pending |
+| BNE gap | 5916–5953 (38 folios) | Held locally, not uploaded |
+
+---
+
+*Last updated: May 2026*  
 © 2026 Richard Steven Vallance. All intellectual property reserved.
