@@ -1,50 +1,53 @@
 # Da Vinci Ultimatium
-## Master Archive — Corpus Leonardianum Universale
+## Corpus Leonardianum Universale — Master Parent Repository
+
+> *Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens*
 
 **Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project | United Kingdom  
 © 2026 Richard Steven Vallance — All Intellectual Property Reserved
 
 ---
 
-## Project Identity
+## Ecosystem Architecture
 
-This is the master parent repository of the **Da Valenca / Da Vinci Project** — a systematic reconstruction of Leonardo da Vinci's mechanical and philosophical treatises from primary BNE transcript sources.
+This repository is the master parent for **Ecosystem A — Da Vinci / Da Valenca**, comprising seven repositories documenting the reconstruction of Leonardo da Vinci's mechanica, universal architecture thesis, and associated optical/spectral research.
 
-Overarching title: **Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens**
-
----
-
-## Archive Documents
-
-**`DA_VALENCA_ZENODO_MASTER_2026.md`** — Zenodo master publication document.
-
-**`DA_VALENCA_PROJECT_MASTER_COMPLETE.md`** — Complete project master document.
-
-**`DOI_REGISTRY.md`** — DOI readiness registry for all repositories. Current status: all DOIs suspended.
-
-**`PUBLICATION_SEQUENCE_MASTER.md`** — Publication priority order and roadmap.
-
-**`REPOSITORY_MAP.md`** — Complete map of all 19 repositories across 4 ecosystems.
+See `REPOSITORY_MAP.md` for the complete 19-repository ecosystem architecture.
 
 ---
 
-## Ecosystem Summary
+## Deposited Master Documents
 
-| Ecosystem | Repos | Focus |
-|---|---|---|
-| A — Da Vinci | 7 | Madrid Codices, SolarScorch, Figura Ultima |
-| B — USC/Soyga | 6 | Universal Simulation Construct |
-| C — Autobiographical | 4 | Sociology, memoir, harm studies |
-| D — Private | 2 | Internal, evidence |
-
----
-
-## Current Active Work
-
-- Madrid Codex I: Batches 1–5 complete (f.0r–f.25r, 26% of codex)
-- Six Priority Claims registered (PC-1 through PC-6)
-- Batch 6 pending: f.25v onward
+| Document | Description |
+|---|---|
+| `DA_VALENCA_ZENODO_MASTER_2026.md` | Zenodo publication master record |
+| `DA_VALENCA_PROJECT_MASTER_COMPLETE.md` | Complete project master compendium |
+| `REPOSITORY_MAP.md` | Full ecosystem architecture and routing rules |
+| `PUBLICATION_SEQUENCE_MASTER.md` | Wave-based publication plan |
+| `DOI_REGISTRY.md` | DOI readiness status for all repositories |
 
 ---
 
-© 2026 Richard Steven Vallance. All intellectual property reserved.
+## Priority Claims (Formally Established)
+
+Six priority claims are formally established in `da-vinci-mechanica`:
+
+- **PC-1:** Flintlock prototype (BNE 5907) — 115 years before le Bourgeoys [EXCEPTIONAL]
+- **PC-2:** Resonant impulse accumulation (BNE 5911) [VERY HIGH]
+- **PC-3:** Combined clock-and-orrery + lunar gear cascade 1:29.5 [FOUNDATIONAL]
+- **PC-4:** Chiaravalle precision dating anchor (BNE 5892) [HIGH]
+- **PC-5:** Seepage alignment as intentional design registration [ORIGINAL]
+- **PC-6:** Over-centre toggle-lock doctrine (BNE 5955) [VERY HIGH]
+
+PC-7, PC-8, PC-9 identified, pending formal write-up.
+
+---
+
+## DOI Status
+
+**No DOIs currently assigned.** See `DOI_REGISTRY.md` for full readiness assessment. First DOI candidate: `da-vinci-mechanica`.
+
+---
+
+© 2026 Richard Steven Vallance. All intellectual property reserved.  
+Da Valenca Leonardo Project, United Kingdom.
