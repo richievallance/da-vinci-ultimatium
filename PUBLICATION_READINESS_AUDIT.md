@@ -1,152 +1,173 @@
-# Publication Readiness Audit
-## DA_VALENCA_CORPUS_v1.0
+# PUBLICATION_READINESS_AUDIT.md
+## Publication Readiness Audit — DA_VALENCA_CORPUS_v1.0
 
-**Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project
+**Richard Steven Vallance (Da Valenca)** | Corpus Leonardianum Universale
 **Audit date:** May 2026
 © 2026 Richard Steven Vallance — All Intellectual Property Reserved
 
 ---
 
-## Overall Status
+## CURRENT STATUS
 
 > **PEER REVIEW READY / PUBLICATION CANDIDATE PENDING REVIEW**
 
-This is the recommended current state. PUBLIC RELEASE APPROVED is not authorized.
+This status applies to the mechanica stream (da-vinci-mechanica) and solar analysis stream (solarscorch) only.
+
+The Figura Ultima / Shroud stream is currently:
+> **INTERNAL READY — ADVERSARIAL REVIEW REQUIRED BEFORE PEER REVIEW SUBMISSION**
 
 ---
 
-## Audit Checklist
+## Audit Categories
 
 ### 1. Freeze Integrity
 
-| Check | Status | Notes |
+| Item | Status | Notes |
 |---|---|---|
-| Freeze declaration created | ✓ PASS | `FREEZE_GOVERNANCE_v1.0.md` |
-| Version routing system defined | ✓ PASS | v1.1 / v1.2 / v2.0 routes documented |
-| Silent overwrite prevention | ✓ PASS | GitHub commit history provides audit trail |
-| Uncontrolled expansion halted | ✓ PASS | All new content routed through versioning |
+| Corpus freeze declared (v1.0) | ✓ COMPLETE | FREEZE_GOVERNANCE_v1.0.md in da-vinci-ultimatium |
+| Version control protocol documented | ✓ COMPLETE | v1.1/v1.2/v2.0 triggers defined |
+| No silent overwriting policy documented | ✓ COMPLETE | |
+| Checksum manifest generated | ✗ NOT COMPLETE | Required before publication candidate status |
 
-### 2. Checksum Integrity
+**Freeze Integrity:** PARTIAL — checksum manifest pending
 
-| Check | Status | Notes |
+---
+
+### 2. Bibliography and Citation Status
+
+| Item | Status | Notes |
 |---|---|---|
-| Core white paper checksum | ⚠ PENDING | `hashes.txt` in `da-vinci-mechanica` exists; verify against final file |
-| Ch VIII–X extension checksum | ⚠ PENDING | Not yet checksummed |
-| Principia binary checksum | ⚠ PENDING | Binary not yet deposited |
-| Figura Ultima thesis checksum | ⚠ PENDING | Not yet checksummed |
+| Master bibliography constructed (Chicago N&B) | ✓ COMPLETE | bibliography/MASTER_BIBLIOGRAPHY.md |
+| Source reference register constructed | ✓ COMPLETE | bibliography/SOURCE_REFERENCE_REGISTER.md |
+| All PENDING_VERIFICATION entries resolved | ✗ NOT COMPLETE | 4 entries pending: Manuscript D IIIF URL, Arundel folio-level, Barbet edition, RSV&French publication status |
+| Windsor RCIN folio-level verification | ✗ NOT COMPLETE | Ch. IX anatomical folio citations unverified |
+| Duplicate citations removed | ✓ COMPLETE | |
+| BNE transcript citations complete (Batches 1–5) | ✓ COMPLETE | 36 entries verified |
+| BNE gap (files 5916–5953) | ✗ PENDING | 38 folios held locally; PC-7–9 pending write-up |
 
-### 3. Bibliography Status
+**Bibliography:** PARTIAL — 4 verification flags unresolved
 
-| Check | Status | Notes |
+---
+
+### 3. Evidential Firewall Compliance
+
+| Item | Status | Notes |
 |---|---|---|
-| Chicago N&B standard | ⚠ IN PROGRESS | `MASTER_BIBLIOGRAPHY.md` being built |
-| Duplicate removal | ⚠ IN PROGRESS | Cross-document deduplication required |
-| Shelfmark verification | ⚠ IN PROGRESS | BNE citations confirmed; CA673/Windsor pending |
-| Folio reference verification | ✓ PASS | All BNE citations confirmed from transcripts |
-| Uncertain references flagged | ⚠ PARTIAL | PENDING_VERIFICATION tags added in key files |
-| `.bib` file created | ✗ NOT YET | Requires bibliography completion first |
+| ECS five-type classification system documented | ✓ COMPLETE | evidence/ECS_EVIDENCE_CLASSIFICATION_REGISTER.md |
+| Every major claim classified by evidence type | ✓ COMPLETE | All corpus claims registered |
+| No TYPE_C presented as TYPE_A (audit needed) | ⚠ REQUIRES PASS | Mechanical audit of all document prose not yet done |
+| Claim risk register complete | ✓ COMPLETE | evidence/CLAIM_RISK_REGISTER.md |
+| Falsification protocols documented | ✓ COMPLETE | evidence/FALSIFICATION_PROTOCOLS.md |
+| Language discipline (banned phrases) | ⚠ REQUIRES PASS | Mechanica stream likely compliant; Figura Ultima prose audit required |
 
-### 4. Citation Normalization
+**Evidential Firewall:** FRAMEWORK COMPLETE — prose audit still required
 
-| Check | Status | Notes |
+---
+
+### 4. Figure Permissions
+
+| Item | Status | Notes |
 |---|---|---|
-| Primary manuscript citations | ✓ PASS | BNE, Windsor, Codex Atlanticus — all present |
-| Secondary scholarship | ✓ PASS | Reti, Kemp, Moon, Hutchings, Rubio present |
-| Technical science literature | ✓ PASS | Tribology citations (Hutchings 2016, 2024) present |
-| Cross-document consistency | ⚠ IN PROGRESS | Manual reconciliation needed |
-| Footnote numbering | ⚠ PARTIAL | Full thesis has complete footnotes; white paper uses inline citations |
+| Figure registry constructed | ✓ COMPLETE | figures/FIGURE_AND_PLATE_REGISTRY.md |
+| BNE Interactivo research use confirmed | ✓ COMPLETE | Free for research use with attribution |
+| Vitruvian Man permission | ✗ NOT CONFIRMED | Gallerie dell'Accademia contact required |
+| Windsor anatomical RCIN permission | ✗ NOT CONFIRMED | Royal Collection Trust contact required |
+| STURP images permission | ✗ NOT CONFIRMED | STURP / Diocese of Turin contact required |
+| Enhanced images labelled PROVISIONAL | ✓ POLICY SET | Application to all existing enhanced images in docs pending |
 
-### 5. Figure Permissions
+**Figure Permissions:** REGISTRY COMPLETE — multiple permission confirmations outstanding
 
-| Check | Status | Notes |
+---
+
+### 5. Lexicon Consistency
+
+| Item | Status | Notes |
 |---|---|---|
-| BNE transcript images | ⚠ PENDING | BNE standard use policy applies; formal permission request not yet submitted |
-| Windsor Collection images | ⚠ PENDING | Royal Collection Trust permission required before publication |
-| Codex Atlanticus images | ⚠ PENDING | Biblioteca Ambrosiana permission required |
-| All enhanced imagery marked PROVISIONAL | ✓ PASS | Policy stated in governance docs |
-| Figure registry created | ⚠ IN PROGRESS | `FIGURE_AND_PLATE_REGISTRY.md` being built |
+| Banned language list documented | ✓ COMPLETE | CLAIM_RISK_REGISTER.md language discipline section |
+| 'Proof'/'definitively' in Figura Ultima removed | ⚠ REQUIRES PASS | Full prose audit needed |
+| 'Candidate framework'/'testable model' language verified | ⚠ REQUIRES PASS | Audit of ECS-classified sections needed |
+| 'Shroud attribution hypothesis' never stated as fact | ⚠ REQUIRES PASS | Critical before any public-facing release |
 
-### 6. Lexicon Consistency
+**Lexicon:** STANDARDS DOCUMENTED — compliance audit not yet run
 
-| Check | Status | Notes |
+---
+
+### 6. Reviewer Packet Status
+
+| Item | Status | Notes |
 |---|---|---|
-| "Candidate framework" language used | ✓ PASS | Directive 9 language enforced in governance docs |
-| "Proof" / "definitively" language banned | ⚠ PARTIAL | Existing corpus text predates governance; v1.1 sweep required |
-| Figura Ultima assertive language | ⚠ FLAG | Full thesis contains some assertive language — adversarial review required before public release |
-| Evidential tier markers consistent | ✓ PASS | A/B/C/D/X protocol documented; used in Principia Claim Register |
+| Peer review infrastructure defined | ✓ COMPLETE | Pathway in PUBLICATION_SEQUENCE_MASTER.md |
+| Adversarial review layer defined | ✓ COMPLETE | Figura Ultima: mandatory before peer review |
+| Reader entry points created (8 pathways) | ✓ COMPLETE | navigation/READER_ENTRY_POINTS.md |
+| Compression layer (500w / 5kw / 20kw summaries) | ✗ NOT COMPLETE | Flagship publication concept defined; text not written |
+| Reviewer selection matrix | ✗ NOT COMPLETE | To be developed at PEER REVIEW READY stage |
+| Checksum manifests | ✗ NOT COMPLETE | Required at publication candidate stage |
+| Export zip | ✗ NOT COMPLETE | Required at publication candidate stage |
 
-### 7. Evidential Firewall Compliance
+**Reviewer Infrastructure:** PARTIALLY COMPLETE
 
-| Check | Status | Notes |
+---
+
+### 7. Unresolved Verification Flags
+
+| Flag | Document | Status |
 |---|---|---|
-| TYPE_A / TYPE_B / TYPE_C / TYPE_D / TYPE_E schema | ✓ PASS | Defined in `ECS_EVIDENCE_CLASSIFICATION_REGISTER.md` |
-| No TYPE_C stated as TYPE_A fact | ⚠ PARTIAL | White paper and Principia compliant; Figura Ultima requires review |
-| Falsification protocols documented | ✓ PASS | `FALSIFICATION_PROTOCOLS.md` created |
-| Claim risk register created | ✓ PASS | `CLAIM_RISK_REGISTER.md` created |
+| Manuscript D IIIF URL | SOURCE_REFERENCE_REGISTER | PENDING_VERIFICATION |
+| British Library Arundel folio-level | SOURCE_REFERENCE_REGISTER | PENDING_VERIFICATION |
+| Barbet 1953 edition details | MASTER_BIBLIOGRAPHY | PENDING_VERIFICATION |
+| Vallance & French "Real Engine" publication status | MASTER_BIBLIOGRAPHY | PENDING_VERIFICATION |
+| Windsor RCIN folio-level (Ch. IX) | SOURCE_REFERENCE_REGISTER | PENDING_VERIFICATION |
+| CA f.93r (viola organista alt. specification) | SOURCE_REFERENCE_REGISTER | PENDING_VERIFICATION |
+| PC-7, PC-8, PC-9 | FREEZE_GOVERNANCE | PENDING — BNE 5916–5953 not yet deposited |
 
-### 8. Reviewer Packet Status
+---
 
-| Check | Status | Notes |
+### 8. Release Governance
+
+| Item | Status |
+|---|---|
+| DOI not assigned prematurely | ✓ CONFIRMED — DOI_REGISTRY.md |
+| No implication of institutional endorsement | ✓ CONFIRMED |
+| "Restricted specialist review" language in all peer review packets | ✓ POLICY SET |
+| No public release approved | ✓ CONFIRMED |
+| Turin-shroud-white-paper rebuild pending | ✓ CONFIRMED — repo marked reserved |
+
+---
+
+## Publication Readiness Summary by Stream
+
+| Stream | Current Status | Gate to Next Level |
 |---|---|---|
-| Peer review packets created | ✗ NOT YET | To be built in separate session |
-| Adversarial review layer | ✗ NOT YET | Figura Ultima adversarial packet required |
-| Reviewer response tracker | ✗ NOT YET | Template created; no reviews received yet |
-| Reviewer selection matrix | ✗ NOT YET | Target: Renaissance mechanics historians, tribology specialists |
-| "RESTRICTED SPECIALIST REVIEW" statement | ✓ PASS | Language embedded in all governance files |
-
-### 9. Unresolved Verification Flags
-
-| Flag | Subject | Status |
-|---|---|---|
-| PENDING_VERIFICATION | BNE 5916–5953 (38 missing folios) | Held locally — not yet uploaded |
-| PENDING_VERIFICATION | PC-7, PC-8, PC-9 formal write-up | Identified, not yet documented |
-| PENDING_VERIFICATION | CA673 156.4° anomaly | Three candidate resolutions documented; none confirmed |
-| PENDING_VERIFICATION | Venus synodic period gear (59-tooth) | Working hypothesis, needs primary source confirmation |
-| PENDING_VERIFICATION | "Magni[a]" witness location identity | Open research lead |
-| PENDING_VERIFICATION | Windsor Collection anatomical connection to Madrid I | Interpretive, not proven |
-
-### 10. Release Governance
-
-| Check | Status | Notes |
-|---|---|---|
-| Freeze governance in place | ✓ PASS | `FREEZE_GOVERNANCE_v1.0.md` |
-| DOI registry current | ✓ PASS | `DOI_REGISTRY.md` |
-| Publication sequence documented | ✓ PASS | `PUBLICATION_SEQUENCE_MASTER.md` |
-| Repository map current | ✓ PASS | `REPOSITORY_MAP.md` |
-| No public release without specialist review | ✓ ENFORCED | Stated in all governance docs |
+| da-vinci-mechanica (mechanica) | **PEER REVIEW READY** | Confirmation of content from RSV; GitHub release + Zenodo DOI |
+| solarscorch | **PEER REVIEW READY** | Full paper adversarial review; resolve 156.4° anomaly documentation |
+| principia-mechanica | **INTERNAL READY** | Binary docx deposit; Windsor/CA folio verification |
+| corpus-leonardianum | **INFRASTRUCTURE COMPLETE** | No independent DOI needed |
+| figura-ultima | **INTERNAL READY — ADVERSARIAL REVIEW REQUIRED** | Mandatory specialist adversarial review; full prose language audit |
+| turin-shroud-white-paper | **NOT READY — REBUILD REQUIRED** | Write controlled-hypothesis paper from selected Figura Ultima sections |
 
 ---
 
 ## Allowed Final Statuses
 
-| Status | Definition |
+| Status | Meaning |
 |---|---|
-| NOT READY | Missing content, broken citations, unflagged speculative claims |
-| INTERNAL READY | Complete, self-consistent, all flags documented |
-| **PEER REVIEW READY** | **Current status — all material complete enough for specialist critique** |
-| PUBLICATION CANDIDATE | After first round of specialist review integrated |
-| PUBLIC RELEASE APPROVED | NOT YET AUTHORIZED — requires all above complete |
+| NOT READY | Significant structural or evidential deficiencies remain |
+| INTERNAL READY | Suitable for private sharing and self-review only |
+| PEER REVIEW READY | Suitable for restricted specialist review; not for public distribution |
+| PUBLICATION CANDIDATE | All flags resolved; peer review underway or completed |
+| PUBLIC RELEASE APPROVED | Specialist review completed; unresolved flags addressed; permissions confirmed |
+
+**Current corpus status:** PEER REVIEW READY (mechanica, solarscorch) / INTERNAL READY (principia, figura-ultima)
+
+**Do not authorize PUBLIC RELEASE APPROVED until:**
+- Specialist review completed
+- All PENDING_VERIFICATION flags resolved
+- Figure permissions confirmed (Vitruvian Man, Windsor, STURP)
+- Full prose language audit completed for Figura Ultima
+- Reviewer responses integrated
+- Checksum manifests generated
 
 ---
-
-## Summary Verdict by Repository
-
-| Repository | Readiness Status | Blocking Issues |
-|---|---|---|
-| `da-vinci-mechanica` | **PEER REVIEW READY** | Awaiting explicit author confirmation for DOI |
-| `solarscorch` | **INTERNAL READY** | 156.4° anomaly unresolved — explicitly documented |
-| `principia-mechanica` | **INTERNAL READY** | Binary docx pending deposit |
-| `corpus-leonardianum` | **PEER REVIEW READY** | Infrastructure only — no independent DOI |
-| `figura-ultima` | **INTERNAL READY — EXPERIMENTAL** | Adversarial review mandatory before any public release |
-| `turin-shroud-white-paper` | **NOT READY** | Paper not yet written |
-| All USC repositories | **NOT READY** | No content |
-
----
-
-## Authorization Statement
-
-> *This corpus is submitted to specialist review only. It does not carry institutional endorsement, DOI registration, or public validation. It does not imply academic acceptance. The findings are presented as testable models, interpretive hypotheses, and candidate frameworks for specialist critique.*
->
-> *PUBLIC RELEASE APPROVED has not been authorized. This status may only be granted by Richard Steven Vallance following completion of specialist review, resolution of unresolved verification flags, finalization of citation audits, verification of figure permissions, and integration of reviewer responses.*
 
 *© 2026 Richard Steven Vallance. All intellectual property reserved.*
+*Da Valenca Leonardo Project, United Kingdom.*
