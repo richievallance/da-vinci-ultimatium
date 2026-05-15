@@ -1,53 +1,62 @@
 # Da Vinci Ultimatium
-## Corpus Leonardianum Universale — Master Parent Repository
+## Corpus Leonardianum Universale — Master Governance Repository
 
-> *Corpus Leonardianum Universale — Grammatica Naturae, Lex Motus, et Ars Vivens*
-
-**Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project | United Kingdom  
-© 2026 Richard Steven Vallance — All Intellectual Property Reserved
-
----
-
-## Ecosystem Architecture
-
-This repository is the master parent for **Ecosystem A — Da Vinci / Da Valenca**, comprising seven repositories documenting the reconstruction of Leonardo da Vinci's mechanica, universal architecture thesis, and associated optical/spectral research.
-
-See `REPOSITORY_MAP.md` for the complete 19-repository ecosystem architecture.
+**Author:** Richard Steven Vallance (Da Valenca)  
+**Affiliation:** The People Focused Group, Doncaster, UK  
+**Status:** 🟢 ACTIVE — Governance hub for Ecosystem A (Da Vinci / Da Valenca)  
+**Last Updated:** May 2026
 
 ---
 
-## Deposited Master Documents
+## Purpose
 
-| Document | Description |
+This repository is the master governance parent for **Ecosystem A — Da Vinci / Da Valenca**, providing:
+
+- ecosystem architecture and navigation maps
+- priority claims register (tiered evidence levels)
+- DOI registry and publication sequence
+- bibliography and source registers
+- evidence classification and falsification protocols
+- release governance
+
+It does not contain primary research. It contains the governance layer that organises all research repositories.
+
+---
+
+## Ecosystem Map
+
+| Repository | Role | Status |
+|---|---|---|
+| **THIS REPO** | Governance hub | 🟢 Active |
+| [da-vinci-mechanica](https://github.com/richievallance/da-vinci-mechanica) | Madrid Codex I engineering | 🟡 DOI Candidate 1 |
+| [solarscorch](https://github.com/richievallance/solarscorch) | Solar geometry analysis | 🟡 DOI Candidate 2 |
+| [principia-mechanica](https://github.com/richievallance/principia-mechanica) | Universal architecture thesis | 🟡 DOI Candidate 3 |
+| [corpus-leonardianum](https://github.com/richievallance/corpus-leonardianum) | Codicological infrastructure | 🟢 Active |
+| [figura-ultima](https://github.com/richievallance/figura-ultima) | Turin Shroud thesis | 🔴 Experimental |
+| [turin-shroud-white-paper](https://github.com/richievallance/turin-shroud-white-paper) | Predecessor archive | 🔴 Archived |
+
+---
+
+## Key Governance Files
+
+| File | Purpose |
 |---|---|
-| `DA_VALENCA_ZENODO_MASTER_2026.md` | Zenodo publication master record |
-| `DA_VALENCA_PROJECT_MASTER_COMPLETE.md` | Complete project master compendium |
-| `REPOSITORY_MAP.md` | Full ecosystem architecture and routing rules |
-| `PUBLICATION_SEQUENCE_MASTER.md` | Wave-based publication plan |
-| `DOI_REGISTRY.md` | DOI readiness status for all repositories |
+| [DA_VALENCA_PRIORITY_CLAIMS.md](DA_VALENCA_PRIORITY_CLAIMS.md) | Priority claims register — PC-01 through PC-07 with evidence tiers |
+| [REPOSITORY_MAP.md](REPOSITORY_MAP.md) | Full ecosystem architecture across all four ecosystems |
+| [DOI_REGISTRY.md](DOI_REGISTRY.md) | DOI status — all on hold, no DOIs minted |
+| [PUBLICATION_SEQUENCE_MASTER.md](PUBLICATION_SEQUENCE_MASTER.md) | Release order and conditions |
+| [FULL_REPOSITORY_AUDIT.md](FULL_REPOSITORY_AUDIT.md) | Live audit — May 2026 |
+| [governance/MASTER_BIBLIOGRAPHY.md](governance/MASTER_BIBLIOGRAPHY.md) | Primary source bibliography |
+| [evidence/ECS_EVIDENCE_CLASSIFICATION_REGISTER.md](evidence/ECS_EVIDENCE_CLASSIFICATION_REGISTER.md) | Evidence classification system |
 
 ---
 
-## Priority Claims (Formally Established)
+## Governing Principle
 
-Six priority claims are formally established in `da-vinci-mechanica`:
-
-- **PC-1:** Flintlock prototype (BNE 5907) — 115 years before le Bourgeoys [EXCEPTIONAL]
-- **PC-2:** Resonant impulse accumulation (BNE 5911) [VERY HIGH]
-- **PC-3:** Combined clock-and-orrery + lunar gear cascade 1:29.5 [FOUNDATIONAL]
-- **PC-4:** Chiaravalle precision dating anchor (BNE 5892) [HIGH]
-- **PC-5:** Seepage alignment as intentional design registration [ORIGINAL]
-- **PC-6:** Over-centre toggle-lock doctrine (BNE 5955) [VERY HIGH]
-
-PC-7, PC-8, PC-9 identified, pending formal write-up.
+> *No publication without review. No DOI without confirmed content. No release without explicit decision.*
 
 ---
 
-## DOI Status
+## Licence
 
-**No DOIs currently assigned.** See `DOI_REGISTRY.md` for full readiness assessment. First DOI candidate: `da-vinci-mechanica`.
-
----
-
-© 2026 Richard Steven Vallance. All intellectual property reserved.  
-Da Valenca Leonardo Project, United Kingdom.
+© 2026 Richard Steven Vallance. All Intellectual Property Reserved.
