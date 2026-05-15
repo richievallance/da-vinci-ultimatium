@@ -1,117 +1,83 @@
-# DA_VALENCA_CORPUS_v1.0 — Freeze Governance Declaration
-## Corpus Leonardianum Universale — Version Control Framework
+# DA_VALENCA_CORPUS_v1.0 — Freeze Declaration
+## Corpus Leonardianum Universale — Freeze Governance
 
 **Richard Steven Vallance (Da Valenca)** | Da Valenca Leonardo Project | United Kingdom
 © 2026 Richard Steven Vallance — All Intellectual Property Reserved
 
 ---
 
-## CORPUS FREEZE STATUS
+## CORPUS STATUS: FROZEN AT v1.0
 
-**Corpus designation:** DA_VALENCA_CORPUS_v1.0
-**Freeze declared:** May 2026
-**Freeze scope:** All manuscripts, white papers, datasets, theses, and infrastructure files in the da-vinci-ultimatium ecosystem
-
----
-
-## Frozen Content Inventory
-
-| Repository | Document | Frozen Version | Freeze Date |
-|---|---|---|---|
-| da-vinci-mechanica | DaValenca_Mechanica_WhitePaper_2026.md | v1.0 | May 2026 |
-| da-vinci-mechanica | Da_Vinci_Mechanica_Extension_Chapters_VIII_IX_X_RSV_2026.md | v1.0 | May 2026 |
-| principia-mechanica | PRINCIPIA_OMNIUM_Da_Valenca_2026.docx | v1.0 | May 2026 |
-| solarscorch | SolarScorch_SpectralAnalysis_RSV_2026.docx | v1.0 | May 2026 |
-| figura-ultima | FIGURA_ULTIMA_Full_Thesis_RSV_2026.docx | v1.0 | May 2026 |
-| figura-ultima | FIGURA_ULTIMA_Thesis_RSV_2026.docx | v1.0 | May 2026 |
-| corpus-leonardianum | CorpusLeonardianum_MadridII_WhitePaper_RSV_2026.docx | v1.0 | May 2026 |
-| corpus-leonardianum | All infrastructure and transcription files | v1.0 | May 2026 |
+**Freeze date:** May 2026
+**Freeze designation:** DA_VALENCA_CORPUS_v1.0
 
 ---
 
-## Permitted Post-Freeze Changes
+## What "Frozen" Means
 
-Only the following categories of change are permitted to frozen files:
+The corpus is locked against uncontrolled manuscript expansion. No new argumentative content, new priority claims, new thesis chapters, or new analytical sections may be added to v1.0 files without explicit versioning.
 
-1. **Citation corrections** — correcting erroneous shelfmarks, folio references, or author names
-2. **Bibliography additions** — adding newly identified relevant secondary literature
-3. **Figure normalisation** — standardising caption format, resolution metadata, permission status
-4. **Appendix harmonisation** — aligning appendix format across volumes
-5. **Reviewer-response integration** — incorporating specialist reviewer corrections
-6. **Errata tracking** — logging confirmed errors without silent overwriting
-7. **Formatting stabilisation** — resolving typographic or structural inconsistencies
-8. **Verification auditing** — updating PENDING_VERIFICATION flags as sources are confirmed
+All existing files in `da-vinci-mechanica`, `principia-mechanica`, `corpus-leonardianum`, `solarscorch`, `figura-ultima`, and `da-vinci-ultimatium` are hereby frozen at v1.0.
 
 ---
 
-## Prohibited Actions
+## Permitted Changes Within v1.0
 
-The following are explicitly prohibited against v1.0 frozen files:
-
-- Silent overwriting of any frozen document
-- Uncontrolled manuscript expansion beyond the current scope
-- Addition of new substantive claims without version bump
-- Removal of existing caveats or evidential tier designations
-- Alteration of Priority Claims wording without new version declaration
-
----
-
-## Version Control Protocol
-
-All changes post-freeze must follow this protocol:
-
-| Change Type | Version Designation | Trigger |
+| Change Type | Permitted | Notes |
 |---|---|---|
-| Citation / formatting corrections | v1.1 | ≥1 verified correction |
-| Reviewer-response integration | v1.2 | Post specialist review |
-| Substantive new content or claims | v2.0 | New scholarship or Priority Claim |
-| New primary source incorporation | v2.0 | BNE batch uploads beyond Batch 5 |
-
-### Version Declaration Format
-
-Every version bump requires:
-
-1. A git commit message of the form: `FREEZE_BUMP v1.x → v1.y: [reason]`
-2. An entry in this document's Version History table (below)
-3. No overwriting — the prior version commit must remain accessible in git history
-4. A corresponding entry in `ERRATA_AND_CORRECTIONS.md` (to be created at v1.1)
+| Citation corrections | ✓ | Minor footnote/bibliography fixes only |
+| Bibliography additions | ✓ | New scholarly sources confirmed after freeze |
+| Figure normalization | ✓ | Caption, shelfmark, permission status updates |
+| Appendix harmonization | ✓ | Format consistency only — no new content |
+| Reviewer-response integration | ✓ | Must be tracked in `REVIEWER_RESPONSE_TRACKER.md` |
+| Errata tracking | ✓ | Log in `ERRATA_REGISTER.md` |
+| Formatting stabilization | ✓ | Typography, headings, numbering consistency |
+| Verification auditing | ✓ | PENDING_VERIFICATION flags may be resolved |
 
 ---
 
-## Version History
+## Prohibited Without Versioning
 
-| Version | Date | Scope | Author |
-|---|---|---|---|
-| v1.0 | May 2026 | Initial corpus freeze — Batches 1–5 complete, 6 Priority Claims established | RSV |
-
----
-
-## Scope Boundaries
-
-The v1.0 freeze covers:
-
-**IN SCOPE (frozen):**
-- Madrid Codex I: f.0r–f.25r (Batches 1–5, ~26% of 192-folio codex)
-- Six formally established Priority Claims (PC-1 through PC-6)
-- Principia Omnium Universale (complete)
-- Figura Ultima full and short thesis (complete)
-- CA673 SolarScorch analysis and datasets
-- All corpus infrastructure and transcription files
-
-**NOT YET IN SCOPE (pending Batch 6+):**
-- Madrid Codex I f.25v onward (friction laws, lubrication, rack-and-pinion)
-- BNE files 5916–5953 (38 folios held locally)
-- PC-7, PC-8, PC-9 (identified, formal write-up pending)
-- Codex Atlanticus cross-reference integration
-- German translation (RWTH Aachen) systematic integration
+- New argumentative sections
+- New priority claims added to PC register
+- New chapters or sub-chapters
+- Substantive rewrites of existing analytical passages
+- Any changes to evidential tier assignments without a logged review
+- Silent overwriting of any frozen file
 
 ---
 
-## Freeze Integrity Verification
+## Version Routing
 
-To verify freeze integrity, run a SHA-256 checksum against each frozen file and compare against the `CHECKSUM_MANIFEST.md` (to be generated at publication candidate stage). Any deviation from the registered checksum constitutes a freeze violation and must be documented as an errata entry.
+All future changes must route through the following versioning system:
+
+| Version | Scope |
+|---|---|
+| v1.1 | Citation corrections, bibliography additions, errata fixes, figure normalization |
+| v1.2 | Reviewer-response integration, appendix harmonization, verification resolution |
+| v2.0 | Major structural revision, new chapters, new priority claims, post-review rewrite |
+
+**No silent overwrites. Every change logged with commit message referencing version and change type.**
 
 ---
+
+## Repository Freeze Status
+
+| Repository | Frozen Content | v1.0 Status |
+|---|---|---|
+| `da-vinci-mechanica` | White paper Ch I–VIII + Ch VIII–X extension | ✓ FROZEN |
+| `principia-mechanica` | Principia Omnium Universale | ✓ FROZEN (pending binary deposit) |
+| `corpus-leonardianum` | Infrastructure + transcriptions | ✓ FROZEN |
+| `solarscorch` | CA673 spectral analysis + datasets | ✓ FROZEN |
+| `figura-ultima` | Full thesis + short thesis | ✓ FROZEN (experimental — adversarial review required) |
+| `da-vinci-ultimatium` | Registry documents | ✓ FROZEN |
+| `turin-shroud-white-paper` | Reserved — not yet written | N/A — no content to freeze |
+
+---
+
+## Freeze Governance Authority
+
+All versioning decisions are the sole authority of Richard Steven Vallance.
+No third party may authorise a version increment or a content change to frozen files.
 
 *© 2026 Richard Steven Vallance. All intellectual property reserved.*
-*Da Valenca Leonardo Project, United Kingdom.*
