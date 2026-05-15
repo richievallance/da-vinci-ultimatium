@@ -116,3 +116,26 @@ https://github.com/richievallance/da-vinci-ultimatium
 ---
 
 *This portal is maintained in `da-vinci-ultimatium`. All linked repositories are independently citable.*
+
+
+---
+
+## Corpus Chapter Files
+
+The following chapter-level navigation files are now available in `LEONARDO_MASTER_CORPUS/`:
+
+| Chapter | File | Repository |
+|---|---|---|
+| 06 — Madrid I | [CHAPTER_SUMMARY.md](LEONARDO_MASTER_CORPUS/06_MADRID_I/CHAPTER_SUMMARY.md) | da-vinci-mechanica |
+| 07 — Madrid II | [CHAPTER_SUMMARY.md](LEONARDO_MASTER_CORPUS/07_MADRID_II/CHAPTER_SUMMARY.md) | principia-mechanica |
+| 08 — Optics | [CHAPTER_SUMMARY.md](LEONARDO_MASTER_CORPUS/08_OPTICS_PICTURA/CHAPTER_SUMMARY.md) | solarscorch |
+| 12 — Figura Ultima | [CHAPTER_SUMMARY.md](LEONARDO_MASTER_CORPUS/12_FIGURA_ULTIMA/CHAPTER_SUMMARY.md) | figura-ultima |
+
+## Canonical Reference Files
+
+| File | Purpose |
+|---|---|
+| [LEONARDO_LEXICON.md](LEONARDO_LEXICON.md) | Canonical technical terminology — all terms from primary evidence |
+| [LEONARDO_MASTER_TIMELINE.md](LEONARDO_MASTER_TIMELINE.md) | Verified chronology — real dates only |
+| [DA_VALENCA_PRIORITY_CLAIMS.md](DA_VALENCA_PRIORITY_CLAIMS.md) | Priority claims PC-01–PC-07 with evidence tiers |
+| [MASTER_WHITE_PAPER_INDEX.md](MASTER_WHITE_PAPER_INDEX.md) | All canonical papers — real files only |
