@@ -1,33 +1,25 @@
-# DA VALENCA ARCHIVE — GO LIVE AUDIT (FINAL)
-## Generated: 2026-05-16 — Final Pass Complete
+# GO LIVE AUDIT — FINAL
+## Da Valenca Archive · May 2026
 
-## REPOSITORY CLASSIFICATION
+| Repository | Class | Status | DOI |
+|---|---|---|---|
+| da-vinci-mechanica | A | PUBLIC · RELEASE READY | CANDIDATE |
+| principia-mechanica | A | PUBLIC · RELEASE READY | CANDIDATE |
+| corpus-leonardianum | D | PUBLIC · INFRASTRUCTURE | N/A |
+| solarscorch | A | PUBLIC · REVIEW HOLD | CANDIDATE |
+| figura-ultima | C | PUBLIC · EXPERIMENTAL | HOLD |
+| rumour-harm | B | PUBLIC · BLOCKED | BLOCKED |
+| da-vinci-ultimatium | D | PUBLIC · INFRASTRUCTURE | N/A |
+| turin-shroud-white-paper | E | PUBLIC · LEGACY | N/A |
+| soyga-universe | B | PUBLIC · ACTIVE | N/A |
+| contagion-studies | B | PUBLIC · IN PREPARATION | N/A |
+| autobiographical-papers | F | PRIVATE | N/A |
+| da-valenca-internal | F | PRIVATE | N/A |
+| valhalla-archive | F | PRIVATE | N/A |
 
-| Repository | Class | Label | DOI | Action |
-|---|---|---|---|---|
-| da-vinci-mechanica | A | CANONICAL PUBLIC RELEASE | CANDIDATE ✅ | Explicit release instruction |
-| principia-mechanica | A | CANONICAL PUBLIC RELEASE | CANDIDATE ✅ | Citation audit + instruction |
-| corpus-leonardianum | D | INFRASTRUCTURE | N/A | Active |
-| figura-ultima | C | EXPERIMENTAL | HOLD 🔒 | Adversarial review |
-| solarscorch | A | CANONICAL PUBLIC RELEASE | CANDIDATE ⚠️ | 156.4° doc needed |
-| rumour-harm | B | ACTIVE RESEARCH | BLOCKED ❌ | Upload manuscript |
-| da-vinci-ultimatium | D | INFRASTRUCTURE / GOVERNANCE | N/A | Active |
-| turin-shroud-white-paper | E | LEGACY / ARCHIVE | N/A | Frozen |
-| soyga-universe | B | ACTIVE RESEARCH | N/A | Independent |
-| contagion-studies | B | IN PREPARATION | N/A | Stub |
-| informational-light | B | IN PREPARATION | N/A | Stub |
-| recursive-consciousness | B | IN PREPARATION | N/A | Stub |
-| richard-vallance-archive | B | IN PREPARATION | N/A | Stub |
-| simulation-construct-papers | B | IN PREPARATION | N/A | Stub |
-| universal-simulation-construct | B | IN PREPARATION | N/A | Stub |
-| usc-foundations | B | IN PREPARATION | N/A | Stub |
-| da-valenca-internal | F | PRIVATE | N/A | Private |
-| valhalla-archive | F | PRIVATE | N/A | Private |
-| autobiographical-papers | F | PRIVATE DRAFT | N/A | Set PRIVATE manually |
+## STANDARD FILE MATRIX
 
-## STANDARD FILE STATUS
-
-| Repo | README | CITATION | LICENSE | CHANGELOG | DOI_READY | RELATED | SVG Cover |
+| Repo | README | CITATION | LICENSE | CHANGELOG | DOI_READY | RELATED | SVG |
 |---|---|---|---|---|---|---|---|
 | da-vinci-mechanica | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | principia-mechanica | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
@@ -36,26 +28,32 @@
 | solarscorch | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ | ✅ |
 | rumour-harm | ✅ | ✅ | ✅ | ⬜ | ⬜ | ⬜ | ✅ |
 
-## UNRESOLVED (MANUAL ACTION REQUIRED)
-1. Create `da-valenca-containment` repo at github.com/new (token scope insufficient)
-2. Set `autobiographical-papers` to PRIVATE in Settings → Danger Zone
-3. Upload rumour-harm manuscript .docx
-4. Document 156.4° anomaly fully for solarscorch release
-5. Adversarial review for figura-ultima before DOI
+## VISUAL ASSETS
 
-## VISUAL ASSETS COMMITTED
-- da-vinci-mechanica: cover + GitHub preview ✅
-- principia-mechanica: cover + GitHub preview ✅
-- figura-ultima: cover + GitHub preview ✅
-- solarscorch: cover ✅
-- rumour-harm: cover ✅
+| Repo | Cover SVG | GitHub Preview |
+|---|---|---|
+| da-vinci-mechanica | ✅ sepia/vellum/gears | ✅ |
+| principia-mechanica | ✅ cosmic/orrery/gold | ✅ |
+| figura-ultima | ✅ dark linen/projection | ✅ |
+| solarscorch | ✅ amber/observatory | ✅ |
+| rumour-harm | ✅ monochrome/sociology | ⬜ |
 
 ## RELEASE ORDER
-1. da-vinci-mechanica — READY
-2. principia-mechanica — READY
-3. corpus-leonardianum — READY
-4. solarscorch — CANDIDATE
-5. figura-ultima — HOLD
-6. rumour-harm — BLOCKED
 
-*© 2026 Richard Steven Vallance*
+1. da-vinci-mechanica — READY · explicit RSV instruction
+2. principia-mechanica — READY · explicit RSV instruction
+3. corpus-leonardianum — READY · follows 1 & 2
+4. solarscorch — HOLD · document 156.4° anomaly
+5. figura-ultima — HOLD · adversarial review
+6. rumour-harm — BLOCKED · upload manuscript
+
+## REMAINING BLOCKERS
+
+| Blocker | Action |
+|---|---|
+| da-valenca-containment empty (API scope) | Initialize manually via git push or GitHub web UI |
+| rumour-harm manuscript | Upload .docx |
+| solarscorch 156.4° | Document fully in text + add data CSV |
+| figura-ultima adversarial review | Conduct review before DOI |
+
+*© 2026 Richard Steven Vallance · Da Valenca Archive*
